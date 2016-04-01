@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A584691CAE0C9100C7680A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A584681CAE0C9100C7680A /* AppKit.framework */; };
+		18A5846B1CAE0C9100C7680A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A5846A1CAE0C9100C7680A /* Foundation.framework */; };
+		18A5846F1CAE0C9100C7680A /* ExportConsoleText.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 18A5846E1CAE0C9100C7680A /* ExportConsoleText.xcscheme */; };
+		18A584721CAE0C9100C7680A /* ExportConsoleText.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A584711CAE0C9100C7680A /* ExportConsoleText.m */; };
+		18A584751CAE0C9100C7680A /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A584741CAE0C9100C7680A /* NSObject_Extension.m */; };
+		18A584891CAE10BE00C7680A /* BRButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A584881CAE10BE00C7680A /* BRButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18A584651CAE0C9100C7680A /* ExportConsoleText.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExportConsoleText.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A584681CAE0C9100C7680A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		18A5846A1CAE0C9100C7680A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		18A5846E1CAE0C9100C7680A /* ExportConsoleText.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = ExportConsoleText.xcscheme; path = ExportConsoleText.xcodeproj/xcshareddata/xcschemes/ExportConsoleText.xcscheme; sourceTree = SOURCE_ROOT; };
+		18A584701CAE0C9100C7680A /* ExportConsoleText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExportConsoleText.h; sourceTree = "<group>"; };
+		18A584711CAE0C9100C7680A /* ExportConsoleText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExportConsoleText.m; sourceTree = "<group>"; };
+		18A584731CAE0C9100C7680A /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		18A584741CAE0C9100C7680A /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		18A584761CAE0C9100C7680A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A584801CAE0D1A00C7680A /* DVTCompletingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTCompletingTextView.h; sourceTree = "<group>"; };
+		18A584811CAE0D1A00C7680A /* DVTCompletingTextViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTCompletingTextViewDelegate.h; sourceTree = "<group>"; };
+		18A584821CAE0D1A00C7680A /* DVTTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextView.h; sourceTree = "<group>"; };
+		18A584831CAE0D1A00C7680A /* IDEConsoleTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEConsoleTextView.h; sourceTree = "<group>"; };
+		18A584871CAE10BE00C7680A /* BRButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRButton.h; sourceTree = "<group>"; };
+		18A584881CAE10BE00C7680A /* BRButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A584631CAE0C9100C7680A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A584691CAE0C9100C7680A /* AppKit.framework in Frameworks */,
+				18A5846B1CAE0C9100C7680A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A5845C1CAE0C9100C7680A = {
+			isa = PBXGroup;
+			children = (
+				18A5846C1CAE0C9100C7680A /* ExportConsoleText */,
+				18A584671CAE0C9100C7680A /* Frameworks */,
+				18A584661CAE0C9100C7680A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A584661CAE0C9100C7680A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A584651CAE0C9100C7680A /* ExportConsoleText.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A584671CAE0C9100C7680A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18A584681CAE0C9100C7680A /* AppKit.framework */,
+				18A5846A1CAE0C9100C7680A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18A5846C1CAE0C9100C7680A /* ExportConsoleText */ = {
+			isa = PBXGroup;
+			children = (
+				18A584701CAE0C9100C7680A /* ExportConsoleText.h */,
+				18A584711CAE0C9100C7680A /* ExportConsoleText.m */,
+				18A584731CAE0C9100C7680A /* NSObject_Extension.h */,
+				18A584741CAE0C9100C7680A /* NSObject_Extension.m */,
+				18A584871CAE10BE00C7680A /* BRButton.h */,
+				18A584881CAE10BE00C7680A /* BRButton.m */,
+				18A5847F1CAE0D1A00C7680A /* Header */,
+				18A584761CAE0C9100C7680A /* Info.plist */,
+				18A5846D1CAE0C9100C7680A /* Supporting Files */,
+			);
+			path = ExportConsoleText;
+			sourceTree = "<group>";
+		};
+		18A5846D1CAE0C9100C7680A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A5846E1CAE0C9100C7680A /* ExportConsoleText.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A5847F1CAE0D1A00C7680A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				18A584801CAE0D1A00C7680A /* DVTCompletingTextView.h */,
+				18A584811CAE0D1A00C7680A /* DVTCompletingTextViewDelegate.h */,
+				18A584821CAE0D1A00C7680A /* DVTTextView.h */,
+				18A584831CAE0D1A00C7680A /* IDEConsoleTextView.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A584641CAE0C9100C7680A /* ExportConsoleText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A584791CAE0C9100C7680A /* Build configuration list for PBXNativeTarget "ExportConsoleText" */;
+			buildPhases = (
+				18A584611CAE0C9100C7680A /* Sources */,
+				18A584621CAE0C9100C7680A /* Resources */,
+				18A584631CAE0C9100C7680A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExportConsoleText;
+			productName = ExportConsoleText;
+			productReference = 18A584651CAE0C9100C7680A /* ExportConsoleText.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A5845D1CAE0C9100C7680A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = baixing;
+				TargetAttributes = {
+					18A584641CAE0C9100C7680A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18A584601CAE0C9100C7680A /* Build configuration list for PBXProject "ExportConsoleText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18A5845C1CAE0C9100C7680A;
+			productRefGroup = 18A584661CAE0C9100C7680A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A584641CAE0C9100C7680A /* ExportConsoleText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A584621CAE0C9100C7680A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A5846F1CAE0C9100C7680A /* ExportConsoleText.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A584611CAE0C9100C7680A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A584891CAE10BE00C7680A /* BRButton.m in Sources */,
+				18A584721CAE0C9100C7680A /* ExportConsoleText.m in Sources */,
+				18A584751CAE0C9100C7680A /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18A584771CAE0C9100C7680A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		18A584781CAE0C9100C7680A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		18A5847A1CAE0C9100C7680A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = ExportConsoleText/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = baixing.ExportConsoleText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		18A5847B1CAE0C9100C7680A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = ExportConsoleText/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = baixing.ExportConsoleText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A584601CAE0C9100C7680A /* Build configuration list for PBXProject "ExportConsoleText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A584771CAE0C9100C7680A /* Debug */,
+				18A584781CAE0C9100C7680A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A584791CAE0C9100C7680A /* Build configuration list for PBXNativeTarget "ExportConsoleText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A5847A1CAE0C9100C7680A /* Debug */,
+				18A5847B1CAE0C9100C7680A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A5845D1CAE0C9100C7680A /* Project object */;
+}
